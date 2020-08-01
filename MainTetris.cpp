@@ -459,20 +459,21 @@ private:
             const Pixel& bgColor = ((i & 0x01) == 0) ? MOST_DARK_GREY : VERY_DARK_GREY;
             FillRect(x, y, TABLE_WIDTH_PIXELS - 40, 12, bgColor);
             string score = to_string(m_HighScores[i].score);
-            DrawString(x + TABLE_WIDTH_PIXELS - 42 - 8*score.size(), y + 2,
+            int32_t scoreWidth = 8 * (int32_t)score.size();
+            DrawString(x + TABLE_WIDTH_PIXELS - 42 - scoreWidth, y + 2,
                        score, (m_HighScores[i].isUserScore ? GREEN : WHITE));
         }
     }
 
-    void DrawStringCenter(int32_t y, const string& str, const Pixel& color, uint32_t scale = 1)
+    void DrawStringCenter(int32_t y, const string& str, const Pixel& color, int32_t scale = 1)
     {
-        int32_t x = TABLE_START_X + (TABLE_WIDTH_PIXELS / 2) - 4 * scale * str.size();
+        int32_t x = TABLE_START_X + (TABLE_WIDTH_PIXELS / 2) - 4 * scale * (int32_t)str.size();
         DrawString(x, y, str, color, scale);
     }
 
-    void DrawStringRight(int32_t x, int32_t y, const string& str, const Pixel& color, uint32_t scale = 1)
+    void DrawStringRight(int32_t x, int32_t y, const string& str, const Pixel& color, int32_t scale = 1)
     {
-        x -= (8 * scale * str.size());
+        x -= 8 * scale * (int32_t)str.size();
         DrawString(x, y, str, color, scale);
     }
 
@@ -812,7 +813,7 @@ private:
         string score = to_string(m_nGameOverScore);
         string level = to_string(m_nGameOverLevel);
         string lines = to_string(m_nGameOverLines);
-        DrawString(TABLE_START_X + TABLE_WIDTH_PIXELS/2 - 8 * score.size(), 80, score, CYAN, 2);
+        DrawString(TABLE_START_X + TABLE_WIDTH_PIXELS/2 - 8 * (int32_t)score.size(), 80, score, CYAN, 2);
         DrawString(TABLE_START_X + 30, 104, "Level:", WHITE);
         DrawString(TABLE_START_X + 80, 104, level, GREEN);
         DrawString(TABLE_START_X + 30, 118, "Lines:", WHITE);

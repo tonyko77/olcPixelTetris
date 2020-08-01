@@ -593,7 +593,7 @@ void TetrisEngine::DrawDroppedLines(float fElapsedTime)
     m_fCurrentTime = 0.0f;
 
     // remove full lines
-    int32_t cntLines = m_LinesBeingDropped.size();
+    int32_t cntLines = (int32_t) m_LinesBeingDropped.size();
     m_AnimationFlags |= (cntLines & ANIM_LINES_MASK);
     debuglogAppend("LINES: ", cntLines);
     // update score according to lines
