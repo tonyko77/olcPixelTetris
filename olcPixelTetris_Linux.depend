@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1596553424 source:/home/toni/dev/olcPixelTetris/MainTetris.cpp
+	"olcPixelGameEngine.h"
+	"TetrisEngine.h"
+	"TetrisConstants.h"
+	<cstdint>
+	<string>
+	<cmath>
+
+1596553412 /home/toni/dev/olcPixelTetris/olcPixelGameEngine.h
+	"olcPixelGameEngine.h"
+	<cmath>
+	<cstdint>
+	<string>
+	<iostream>
+	<streambuf>
+	<sstream>
+	<chrono>
+	<vector>
+	<list>
+	<thread>
+	<atomic>
+	<fstream>
+	<map>
+	<functional>
+	<algorithm>
+	<array>
+	<cstring>
+	<experimental/filesystem>
+	<filesystem>
+
+1596553322 /home/toni/dev/olcPixelTetris/TetrisEngine.h
+	"olcPixelGameEngine.h"
+	"TetrisConstants.h"
+	"Tetrimino.h"
+	<cstdint>
+
+1597050518 /home/toni/dev/olcPixelTetris/TetrisConstants.h
+	<cstddef>
+
+1596553374 /home/toni/dev/olcPixelTetris/Tetrimino.h
+	<cstdint>
+
+1596553418 source:/home/toni/dev/olcPixelTetris/olcPixelGameEngine.cpp
+	"olcPixelGameEngine.h"
+	"olcPixelGameEngine.h"
+	<windows.h>
+	<GL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<png.h>
+	<windows.h>
+	<gdiplus.h>
+	<Shlwapi.h>
+
+1596553366 source:/home/toni/dev/olcPixelTetris/Tetrimino.cpp
+	"Tetrimino.h"
+	"TetrisConstants.h"
+
+1596553386 source:/home/toni/dev/olcPixelTetris/TetrisEngine.cpp
+	"TetrisEngine.h"
+

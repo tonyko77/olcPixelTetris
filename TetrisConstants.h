@@ -1,6 +1,7 @@
 #ifndef TETRIS_CONSTANTS_H
 #define TETRIS_CONSTANTS_H
 
+#include <cstddef>
 
 const int32_t CNT_TETRIMINOS = 7;
 const int32_t CNT_NEXT_PIECES = 3;
