@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainTetris.cpp">
+    <ClCompile Include="src\MainTetris.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="olcPixelGameEngine.cpp">
+    <ClCompile Include="src\olcPixelGameEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tetrimino.cpp">
+    <ClCompile Include="src\Tetrimino.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TetrisEngine.cpp">
+    <ClCompile Include="src\TetrisEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="olcPixelGameEngine.h">
+    <ClInclude Include="src\olcPixelGameEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tetrimino.h">
+    <ClInclude Include="src\Tetrimino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TetrisConstants.h">
+    <ClInclude Include="src\TetrisConstants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TetrisEngine.h">
+    <ClInclude Include="src\TetrisEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

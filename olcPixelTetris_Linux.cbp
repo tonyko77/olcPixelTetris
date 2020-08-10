@@ -55,15 +55,15 @@
 			<Add library="png" />
 			<Add library="stdc++fs" />
 		</Linker>
-		<Unit filename="MainTetris.cpp" />
 		<Unit filename="README.md" />
-		<Unit filename="Tetrimino.cpp" />
-		<Unit filename="Tetrimino.h" />
-		<Unit filename="TetrisConstants.h" />
-		<Unit filename="TetrisEngine.cpp" />
-		<Unit filename="TetrisEngine.h" />
-		<Unit filename="olcPixelGameEngine.cpp" />
-		<Unit filename="olcPixelGameEngine.h" />
+		<Unit filename="src/MainTetris.cpp" />
+		<Unit filename="src/Tetrimino.cpp" />
+		<Unit filename="src/Tetrimino.h" />
+		<Unit filename="src/TetrisConstants.h" />
+		<Unit filename="src/TetrisEngine.cpp" />
+		<Unit filename="src/TetrisEngine.h" />
+		<Unit filename="src/olcPixelGameEngine.cpp" />
+		<Unit filename="src/olcPixelGameEngine.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
