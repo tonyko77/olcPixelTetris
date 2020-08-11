@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build Main",
+            "command": "D:\\Personal\\mingw-w64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "${workspaceFolder}\\src\\*.cpp",
+                "-luser32",
+                "-lgdi32",
+                "-lopengl32",
+                "-lgdiplus",
+                "-lShlwapi",
+                "-lstdc++fs",
+                "-o",
+                "${workspaceFolder}\\olcPixelTetris.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
