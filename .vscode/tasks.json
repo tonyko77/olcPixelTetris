@@ -13,7 +13,6 @@
                 "-lopengl32",
                 "-lgdiplus",
                 "-lShlwapi",
-                "-lstdc++fs",
                 "-o",
                 "${workspaceFolder}\\olcPixelTetris.exe"
             ],
